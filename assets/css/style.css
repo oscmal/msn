@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedor{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    background-color: white;
+    border: 5px solid #ccc;
+    width: 350px;
+    height: 100 vh ;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.maria{
+    display: flex;
+    border-bottom: 2px solid#ccc;
+    align-items: center;
+    width: 345px;
+    height: 80px;
+}
+
+.gris{
+    font-size: 12px;
+    color: rgb(144, 139, 139);
+}
+
+span{
+    font-size: 12px;
+}
+
+.name{
+    margin-left: 5px;
+    color: black;
+}
+
+.pmaria{
+    width: 50px;
+    border-radius: 300px;
+    border: 1px solid black;
+    margin-left: 5px; 
+}
+
+.imaria{
+    border-radius: 300px;
+    width: 60px;
+    border: 1px solid black;
+    /* /* margin-top: 5px; */
+    margin-left: 5px;
+}
+
+.iconos{
+    margin-right: 0px;
+    margin-left: 170px;
+    margin-bottom: 15%;
+    color: rgb(144, 139, 139)
+}
+
+.boton{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid#ccc;
+}
+
+.mag{
+    display: flex;
+    align-items: center;
+    width: 345px;
+    height: 80px;
+}
+
+.principal{
+    display: flex;
+    width:  1800px;
+    background-color: rgb(246, 242, 242);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.principal img{
+    width: 350px;
+}
+
+.principal h2{
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.principal h6{
+    text-align: center;
+}
+
